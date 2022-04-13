@@ -1,0 +1,28 @@
+body {
+    background-color: #191919;
+    color: #fff;
+    text-align: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    color: #2D2D2D;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.btns {
+    height: 255px;
+    width: 300px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+}
+
+button {
+    background: transparent;
+    border:none
+}
