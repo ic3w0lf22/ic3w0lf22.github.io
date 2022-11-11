@@ -19,9 +19,9 @@ h2 {
 }
 
 a {
-	color: #333;
+	color: rgb(200, 195, 188);
 	text-decoration: none;
-	border-bottom: 1px solid #aaa;
+	border-bottom: 1px solid rgb(72, 78, 81);
 	padding: .1em .2em;
 }
 
@@ -64,8 +64,9 @@ blockquote {
 }
 
 textarea {
-	background: #eee;
-	border: 3px double grey;
+	background: rgb(34, 36, 38);
+	border: 3px double rgb(84, 91, 94);
+	color: #d8d4cf;
 	width: 100%;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -74,13 +75,13 @@ textarea {
 	margin: 1em 0 .5em;
 	padding: .7em;
 	resize: vertical;
-	min-height: 9.5em;
+	min-height: 11.5em;
 }
 
 pre {
 	padding: .5em;
-	border: 3px double green;
-	background: #90ee90;
+	border: 3px double rgb(0, 217, 0);
+	background: rgb(40, 111, 17);
 }
 
 .fail {
@@ -94,6 +95,7 @@ pre {
 		font-size: 1.2em;
 		background: #c4c4c4;
 		height: 100%;
+		background-color: #181A1B;
 	}
 
 	body {
@@ -103,6 +105,8 @@ pre {
 		background: #fff;
 		border: solid #aaa;
 		border-width: 0 1px;
+		background-color: #181A1B;
+		color: #e8e6e3;
 	}
 
 }
