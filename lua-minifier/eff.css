@@ -78,6 +78,27 @@ textarea {
 	min-height: 11.5em;
 }
 
+button {
+	background-color: transparent;
+	border: none;
+	-webkit-transition: all 0.06s;
+	-moz-transition: all 0.06s;
+	transition: all 0.06s;
+	width: 28px;
+	height: 28px;
+	padding: 0px;
+	vertical-align:top;
+}
+
+button:active {
+	transform: scale(0.9);
+}
+
+img {
+	width: 28px;
+	height: 28px;
+}
+
 pre {
 	padding: .5em;
 	border: 3px double rgb(0, 217, 0);
@@ -85,8 +106,8 @@ pre {
 }
 
 .fail {
-	border-color: red;
-	background: #ffb6c1;
+	background-color: rgb(95, 0, 14);
+	border-color: rgb(179, 0, 0);
 }
 
 @media (min-width: 42em) {

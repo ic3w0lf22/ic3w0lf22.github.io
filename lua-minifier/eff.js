@@ -1,5 +1,4 @@
 (function(window, document) {
-
 	var textarea = document.getElementsByTagName('textarea')[0],
 	    characters = document.getElementById('characters'),
 	    pre = document.getElementsByTagName('pre')[0],
